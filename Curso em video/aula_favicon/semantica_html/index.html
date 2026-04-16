@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+    <h1>NEGRITO em semântica</h1>
+    <p>Nesta frase, temos <b>uma parte em negrito</b> (sem semântica).</p>
+    <p>Já nesta outra frase, temos <strong>uma parte em negrito</strong> (semântica).</p>
+    <strong>lembre-se:</strong> para ter uma agilidade na hora de usar tags, utilize o atalho: ctrl+shift+p
+    <h1>ITÁLICO em semântica</h1>
+    Nesta frase temos uma<em> frase com ênfase</em>(semântica).
+    <h2>Texto Marcado:</h2>
+    <p>Nesta frase podemos usar a tag <mark>MARK</mark> para marcar um texto de forma semântica.</p>
+    <h2>Texto pequeno</h2>
+    <p>Nesta frase tem um exemplo de texto <small>pequeno</small></p>
+    <h2>Texto deletado</h2>
+    <p>Nesta frase tem um exemplo simples de texto <del>deletado</del></p>
+    <h2>Texto inserido</h2>
+    <p>Já nesta frase tem um exemplo simples de texto <ins>inserido</ins></p>
+    <h2>Código fonte/pré-formatação</h2>
+    <pre> <!--Esse "pre" é uma forma de manter a identação do código, no caso, ele considera todos os espaços que eu pus-->
+        <code>
+num = int(input("Qual é o numero?"))
+if num %¨2 == 0:
+    print("É par")
+else:
+    print("O numero é impar")
+        </code>
+    </pre> <!--Detalhe: selecionei o código segurei shift e apertei a tecla tab para ele ficar correto.-->
+    <h2>Citações</h2>
+    <p><strong>Simples:</strong></p>
+    <q>Só sei que nada sei - Socrátes</q>
+    <p><strong>Blocada:</strong></p>
+    <p>Segundo um levantamento feito pela página Scielo:</p>
+    <blockquote cite="https://www.scielo.br/j/rpp/a/CQxCtrvhkrW6GdqgKPVLZ4v/?format=pdf&lang=pt">
+        É impossível mexer no celular sem antes surtar de dor.
+    </blockquote> <!--Saiba que esse parâmetro cite serve no mecanismo de busca do seu site, lindão-->
+</body>
+</html>

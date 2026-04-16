@@ -1,0 +1,67 @@
+body{
+
+    background-color: rgb(87, 85, 85);
+
+}
+#caixa01{
+
+    box-sizing: border-box;
+    border: 5px solid red;
+
+}
+#caixa02{
+
+    border: 3px dashed blue;
+    box-sizing: content-box;
+
+}
+#caixa03{
+
+    border: 6px dotted black;
+
+}
+#caixa04{
+
+    border: 5px groove green;
+
+}
+#caixa05{
+
+    border: 5px ridge orange;
+
+}
+#caixa06{
+
+    border: 5px inset violet;
+
+}
+#caixa07{
+
+    border: 5px outset aqua;
+    box-sizing: content-box;
+
+}
+.desafio{
+
+    background-color: rgb(109, 64, 44);
+    height: 560px;
+    width: 700px;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 45px;
+    text-align: center;
+    border: 6px solid;
+
+}
+#Paulinho{
+
+    border-radius: 45px;
+    border: 5px solid;
+
+}
+#titulo_desafio{
+
+    background-color: bisque;
+    border-radius: 40px;
+
+}

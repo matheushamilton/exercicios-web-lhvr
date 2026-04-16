@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon_io/favicon-32x32.png" type="image/x-icon">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="Logo"><img id="logo" src="download.png" alt="Logo"
+        width="50px"
+        height="20px"></div>
+      <nav>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <div class="banner">
+        <img src="paulinho.jpg" alt="Foto do Paulão" />
+        <div class="texto-banner">
+          <h1>Olá, sou Paulo H. Mendes</h1>
+          <p>Professor e Designer nas horas vagas</p>
+        </div>
+      </div>
+    </section>
+    <section id="sobre">
+      <h2>Sobre o profissional</h2>
+      <br />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut
+        massa semper, rhoncus lorem sed, fermentum augue. Maecenas venenatis
+        justo non neque tempor eleifend. Mauris vulputate turpis sed massa
+        pellentesque, quis congue mi dignissim. Morbi auctor, arcu et tristique
+        facilisis, ex arcu viverra ipsum, ut vulputate risus nisl ac sapien. Ut
+        in risus metus. Ut cursus lacinia lectus, nec condimentum quam rhoncus
+        sed. Nulla gravida malesuada enim, sit amet eleifend quam egestas vitae.
+        Fusce tincidunt tortor nulla, eget iaculis lorem condimentum nec. Nulla
+        viverra risus tortor. Donec pharetra elit id augue cursus, ut ornare
+        nulla pretium. Suspendisse vestibulum quam malesuada turpis tempor, sed
+        porta urna efficitur. Nunc consequat nisl nec nulla blandit cursus.
+        Nulla suscipit nisi vel lorem pulvinar, a semper libero faucibus. In hac
+        habitasse platea dictumst. Nam mollis quis ex et iaculis. Donec blandit
+        id nibh et porttitor.
+      </p>
+    </section>
+    <section id="tecnologias">
+      <h2>Tecnologias</h2>
+      <table>
+        <tr>
+          <th>Tecnologias</th>
+          <th>Significado</th>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Linguagem de marcação para estruturar páginas web</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>
+            Linguagem de estilização (Cascading Style Sheet)
+          </td>
+          <tr>
+            <td>Figma</td>
+            <td>Software relacionado ao design UI/UX</td>
+          </tr>
+        </tr>
+      </table>
+    </section>
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="enviar.php" method="post">
+            <input type="text" name="nome"
+            placeholder="Seu Nome" required />
+            <textarea
+            name="Mensagem"
+            placeholder="Digite sua mensagem"
+            rows="4"
+            required
+            ></textarea>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2025 todos direitos reservados à EEEP Lucia Helena Viana Ribeiro</p>
+        <div class="redes_sociais">
+            <a href="#">Instagram</a>
+            <a href="#">Linkedin</a>
+        </div>
+    </footer>
+  </body>
+</html>

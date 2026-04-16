@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#id_campo_nome_completo{
+    margin: 0;
+}
+p{
+    margin-bottom: 2px;
+    margin-top: 5px;
+    text-align: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8B0000; /* vermelho escuro */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+
+form {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus,
+select:focus {
+    border-color: #b22222;
+}
+
+fieldset {
+    border-color: #ddd;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 14px;
+    color: #b22222;
+    font-weight: bold;
+}
+
+.caixa_ingredientes label,
+.caixa_tamanhopizza label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+.caixa_ingredientes,
+.caixa_tamanhopizza,
+.caixa_tipomassa {
+    margin-top: 15px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #b22222;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: transparent;
+    color: #b22222;
+    border: 1px solid #b22222;
+}
+
+
+button:hover {
+    opacity: 0.9;
+}

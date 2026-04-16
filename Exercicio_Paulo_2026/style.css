@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+
+    font-size: 24px;
+}
+#logo{
+    width: 60px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav li{
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: azure;
+    transition: color 0.3s;
+}
+nav li a:hover{
+    color: aqua;
+}
+section{
+    padding: 50px 0;
+    text-align: center;
+}
+banner{
+    position: relative;
+    background-color: bisque;
+    color: aliceblue;
+    padding: 20px;
+}
+.banner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.texto-banner{
+    font-size: 18px;
+}
+#sobre{
+    background-color: gainsboro;
+    padding: 50px 100px;
+    text-align: justify;
+}
+#sobre h2{
+    color: black;
+}
+#sobre p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+#tecnologias{
+    background-color: gainsboro;
+}
+#tecnologias h2{
+    color: black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table th, table td{
+    padding: 10px;
+    border: 1px solid gray;
+    transition: background-color 0.3s;
+}
+table tr:hover{
+    background-color: #f9f9f9;
+}

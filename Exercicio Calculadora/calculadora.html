@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <!--FONTE:-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="calculadora_imc">
+        <fieldset>
+            <form id="id_formulario" name="formulario" action="">
+                <legend>Calculadora IMC</legend>
+                <label for="id_nome">Nome:
+                    <input type="text"
+                    id="id_nome"
+                    name="nome"
+                    placeholder="Informe seu nome"
+                    autofocus
+                    required
+                    minlength="5"
+                    maxlength="200"
+                    >
+                </label>
+                <br>
+                <label for="id_altura">Altura:
+                    <input type="text"
+                    name="altura"
+                    id="id_altura"
+                    placeholder="Informe sua altura"
+                    required
+                    >
+                </label>
+                <br>
+                <label for="id_peso">Peso:
+                    <input type="text"
+                    name="peso"
+                    id="id_peso"
+                    placeholder="Informe seu peso"
+                    required
+                    >
+                </label>
+                <br>
+                <div class="botao_calcular">
+                    <button type="submit">
+                        Calcular
+                    </button>
+                </div>
+        </form>
+        <p id="id_resultado"></p>
+        </fieldset>
+    </section>
+    <script src="calculadora.js"></script>
+    
+</body>
+</html>
