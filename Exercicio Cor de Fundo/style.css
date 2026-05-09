@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+/* Centraliza tudo que estiver dentro do body */
+body {
+    margin: 0;
+    height: 100vh; /* Ocupa a altura toda da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Cor de fundo opcional */
+}
+
+#box-int {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(109, 113, 109);
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-family: 'Google Sans', sans-serif;
+    cursor: pointer; /* Faz aparecer a mãozinha de clique */
+    font-weight: 800;
+
+    background-color: #2563eb; /* Um azul mais elegante */
+    box-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.39); /* Sombra da mesma cor */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    font-weight: 600;
+
+    /* Importante: A transição fica melhor aqui no CSS */
+    transition: transform 0.3s ease; 
+}
